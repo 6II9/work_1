@@ -3,33 +3,65 @@
     margin: 0;
     padding: 0;
 }
-body h1:nth-of-type(3) span:first-child{
+body .hi:nth-of-type(3) span:first-child{
     color: red;
 }
-body h1:nth-of-type(3) span:nth-of-type(2){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(2){
     color: blue;
 }
-body h1:nth-of-type(3) span:nth-of-type(3){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(3){
     color: orange;
 }
-body h1:nth-of-type(3) span:nth-of-type(4){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(4){
     color: green;
 }
-body h1:nth-of-type(3) span:nth-of-type(5){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(5){
     color: greenyellow;
 }
-body h1:nth-of-type(3) span:nth-of-type(6){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(6){
     color: yellow;
 }
-body h1:nth-of-type(3) span:nth-of-type(7){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(7){
     color: fuchsia;
 }
-body h1:nth-of-type(3) span:nth-of-type(8){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(8){
     color: wheat;
 }
-body h1:nth-of-type(3) span:nth-of-type(9){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(9){
     color: lawngreen;
 }
-body h1:nth-of-type(3) span:nth-of-type(10){
+body .hi:nth-of-type(3):nth-of-type(3) span:nth-of-type(10){
+    color: navy;
+}
+
+
+body .hello:nth-of-type(2) span:first-child{
+    color: red;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(2){
+    color: blue;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(3){
+    color: orange;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(4){
+    color: green;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(5){
+    color: greenyellow;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(6){
+    color: yellow;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(7){
+    color: fuchsia;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(8){
+    color: wheat;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(9){
+    color: lawngreen;
+}
+body .hello:nth-of-type(2):nth-of-type(2) span:nth-of-type(10){
     color: navy;
 }
